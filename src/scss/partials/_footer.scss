@@ -1,0 +1,64 @@
+.footer {
+  background-color: $base-text;
+
+  .messengers__item,
+  .telephone {
+    color: $white;
+  }
+
+  .messengers__item--viber {
+    &::before {
+      background-image: url("/assets/img/icons/viber-logo-yellow.png");
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .messengers__item--wa {
+    &::before {
+      background-image: url("/assets/img/icons/whatsapp-logo-yellow.png");
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .messengers__item--tlg {
+    &::before {
+      background-image: url("/assets/img/icons/telegram-logo-yellow.png");
+      width: 19px;
+      height: 19px;
+    }
+  }
+}
+
+.footer__top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+
+  &::before {
+    content: '';
+    height: 2px;
+    background-color: $yellow;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.footer__info {
+  h4 {
+    margin: 0;
+    font-family: 'Open Sans Semibold';
+    font-size: 14px;
+    line-height: 22px;
+    color: $white;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+    color: $white;
+  }
+}

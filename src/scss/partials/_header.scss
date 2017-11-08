@@ -1,0 +1,86 @@
+.header {
+  margin: 0;
+  padding: 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+}
+
+.header__text {
+  max-width: 275px;
+
+  p {
+    font-size: 16px;
+    color: $base-text;
+  }
+}
+
+.contacts {
+  text-align: right;
+}
+
+.telephone {
+  font-family: 'Amazing Grotesk Ultra';
+  text-decoration: none;
+  color: $base-text;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+
+.messengers {
+  margin-bottom: 10px;
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    color: $base-text;
+    margin-left: 41px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: -21px;
+      top: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.messengers__item--viber {
+  &::before {
+    background-image: url("/assets/img/icons/viber-logo.png");
+  }
+}
+
+.messengers__item--wa {
+  &::before {
+    background-image: url("/assets/img/icons/whatsapp-logo.png");
+  }
+}
+
+.messengers__item--tlg {
+  &::before {
+    background-image: url("/assets/img/icons/telegram-logo.png");
+  }
+}
+
+.call-me {
+  max-width: 171px;
+  border-radius: 18px ;
+  background-color: inherit;
+  border: 2px solid $base-salad;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Amazing Grotesk Demi';
+  color: $base-salad;
+}

@@ -1,0 +1,24 @@
+.form-call {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-call__input {
+  width: 284px;
+  background-color: $input-color;
+  color: $input-text;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  border-radius: 22px;
+  padding: 0.6em 35px;
+  border: none
+}
+
+.form-call__input--btn {
+  background-color: $base-salad;
+  color: $white;
+  font-family: 'Amazing Grotesk Demi';
+  font-size: 18px;
+  cursor: pointer;
+
+}

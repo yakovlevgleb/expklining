@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+
+  iframe {
+    margin-right: 15px;
+  }
+}
+
+.about__comment {
+  width: 570px;
+  padding-left: 22px;
+  p {
+    color: $base-text;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0;
+    &:nth-child(2){
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.about__avatar {
+  margin-right: 25px;
+}
+
+.about__header {
+  display: flex;
+  margin-bottom: 43px;
+
+  h3 {
+    font-family: 'Amazing Grotesk Ultra';
+    color: $base-text;
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 28px;
+  }
+}
