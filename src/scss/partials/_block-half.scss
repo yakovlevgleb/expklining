@@ -1,0 +1,46 @@
+.block-half {
+  width: 49%;
+  height: 352px;
+  padding: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6px;
+  margin-bottom: 60px;
+}
+
+.block-half--bucket {
+  margin-right: 15px;
+  background-image: url("/assets/img/bg-bucket.jpg");
+  h3 {
+    margin: 0;
+    font-family: 'Amazing Grotesk Ultra';
+    font-size: 36px;
+    color: $base-text;
+    margin-bottom: 105px;
+  }
+
+}
+
+.block-half--workers {
+  background-image: url("/assets/img/workers.png");
+  background-position: right;
+  padding-left: 17px;
+  h3 {
+    margin: 0;
+    font-family: 'Amazing Grotesk Ultra';
+    color: $base-text;
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  img {
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-family: 'Open Sans Semibold';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+}

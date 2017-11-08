@@ -29,10 +29,10 @@
   color: $base-text;
   font-size: 30px;
   line-height: 30px;
-  margin-bottom: 6px;
 }
 
 .messengers {
+  margin-top: 6px;
   margin-bottom: 10px;
   a {
     text-decoration: none;
@@ -46,7 +46,7 @@
       position: absolute;
       width: 16px;
       height: 16px;
-      left: -21px;
+      left: -24px;
       top: 0;
       background-repeat: no-repeat;
       background-position: center;

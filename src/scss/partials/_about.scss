@@ -1,15 +1,18 @@
 .about {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 
-  iframe {
+  .about__video {
     margin-right: 15px;
+    margin-bottom: 40px;
   }
 }
 
 .about__comment {
   width: 570px;
   padding-left: 22px;
+  margin-bottom: 40px;
   p {
     color: $base-text;
     line-height: 30px;

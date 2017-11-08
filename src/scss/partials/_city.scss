@@ -1,0 +1,55 @@
+.city {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.city__map {
+  width: 750px;
+  height: 410px;
+  background-image: url("/assets/img/map.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: $white;
+
+  h2 {
+    font-family: 'Amazing Grotesk Ultra';
+    color: $base-text;
+    font-size: 36px;
+  }
+}
+
+.city__search {
+  padding: 38px 35px;
+  width: 405px;
+  background-color: $input-color;
+  border-radius: 6px;
+
+  p {
+    margin: 0;
+    font-family: 'Open Sans Semibold';
+    color: $base-text;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .form-call {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-call__input {
+    background-color: $white;
+    width: 327px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .form-call__input--btn {
+    background-color: $yellow;
+    color: $base-text;
+  }
+}

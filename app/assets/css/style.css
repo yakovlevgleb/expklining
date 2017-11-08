@@ -46,6 +46,11 @@ body {
 .salad-bold {
   color: #00cad1; }
 
+.black-yellow {
+  font-family: 'Amazing Grotesk Ultra';
+  background-color: #201e34;
+  color: #fde873; }
+
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -445,10 +450,10 @@ textarea {
   text-decoration: none;
   color: #201e34;
   font-size: 30px;
-  line-height: 30px;
-  margin-bottom: 6px; }
+  line-height: 30px; }
 
 .messengers {
+  margin-top: 6px;
   margin-bottom: 10px; }
   .messengers a {
     text-decoration: none;
@@ -461,7 +466,7 @@ textarea {
       position: absolute;
       width: 16px;
       height: 16px;
-      left: -21px;
+      left: -24px;
       top: 0;
       background-repeat: no-repeat;
       background-position: center; }
@@ -615,13 +620,16 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-  .about iframe {
-    margin-right: 15px; }
+      flex-wrap: wrap;
+  margin-bottom: 60px; }
+  .about .about__video {
+    margin-right: 15px;
+    margin-bottom: 40px; }
 
 .about__comment {
   width: 570px;
-  padding-left: 22px; }
+  padding-left: 22px;
+  margin-bottom: 40px; }
   .about__comment p {
     color: #201e34;
     line-height: 30px;
@@ -648,10 +656,7 @@ textarea {
 .form-call {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  display: flex; }
 
 .form-call__input {
   width: 284px;
@@ -661,20 +666,133 @@ textarea {
   font-family: 'Open Sans';
   border-radius: 22px;
   padding: 0.6em 35px;
-  border: none; }
+  border: none;
+  margin-right: 11px; }
 
 .form-call__input--btn {
   background-color: #00cad1;
   color: #ffffff;
   font-family: 'Amazing Grotesk Demi';
   font-size: 18px;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0; }
+
+.city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.city__map {
+  width: 750px;
+  height: 410px;
+  background-image: url("/assets/img/map.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: #ffffff; }
+  .city__map h2 {
+    font-family: 'Amazing Grotesk Ultra';
+    color: #201e34;
+    font-size: 36px; }
+
+.city__search {
+  padding: 38px 35px;
+  width: 405px;
+  background-color: #f2f2f2;
+  border-radius: 6px; }
+  .city__search p {
+    margin: 0;
+    font-family: 'Open Sans Semibold';
+    color: #201e34;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 35px; }
+  .city__search .form-call {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .city__search .form-call__input {
+    background-color: #ffffff;
+    width: 327px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    text-align: center; }
+  .city__search .form-call__input--btn {
+    background-color: #fde873;
+    color: #201e34; }
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px 0; }
+
+.block-half {
+  width: 49%;
+  height: 352px;
+  padding: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6px;
+  margin-bottom: 60px; }
+
+.block-half--bucket {
+  margin-right: 15px;
+  background-image: url("/assets/img/bg-bucket.jpg"); }
+  .block-half--bucket h3 {
+    margin: 0;
+    font-family: 'Amazing Grotesk Ultra';
+    font-size: 36px;
+    color: #201e34;
+    margin-bottom: 105px; }
+
+.block-half--workers {
+  background-image: url("/assets/img/workers.png");
+  background-position: right;
+  padding-left: 17px; }
+  .block-half--workers h3 {
+    margin: 0;
+    font-family: 'Amazing Grotesk Ultra';
+    color: #201e34;
+    font-size: 24px;
+    margin-bottom: 35px; }
+  .block-half--workers img {
+    margin-bottom: 25px; }
+  .block-half--workers p {
+    font-family: 'Open Sans Semibold';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0; }
+
+.block-full {
+  width: 100%;
+  background-image: url("/assets/img/money-rain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  padding-right: 270px; }
+  .block-full h3 {
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: 'Amazing Grotesk Demi';
+    font-size: 36px; }
 
 .footer {
   background-color: #201e34; }
   .footer .messengers__item,
   .footer .telephone {
     color: #ffffff; }
+  .footer .messengers {
+    margin-top: 20px; }
   .footer .messengers__item--viber::before {
     background-image: url("/assets/img/icons/viber-logo-yellow.png");
     width: 19px;
@@ -696,7 +814,8 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 35px; }
+  padding-top: 35px;
+  padding-bottom: 30px; }
   .footer__top::before {
     content: '';
     height: 2px;
@@ -705,17 +824,64 @@ textarea {
     position: absolute;
     bottom: 0; }
 
-.footer__info h4 {
-  margin: 0;
-  font-family: 'Open Sans Semibold';
-  font-size: 14px;
-  line-height: 22px;
-  color: #ffffff; }
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .footer__info h4 {
+    margin: 0;
+    font-family: 'Open Sans Semibold';
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff; }
+  .footer__info p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 0; }
+  .footer__info a {
+    color: #ffffff; }
 
-.footer__info p {
-  font-size: 14px;
-  line-height: 22px;
-  color: #ffffff; }
+.footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .footer__bottom p, .footer__bottom a, .footer__bottom span {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0; }
+  .footer__bottom a {
+    font-family: 'Open Sans Semibold'; }
+
+.more-info {
+  max-width: 220px;
+  padding-top: 13px;
+  padding-right: 40px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 24px;
+  background-color: #00cad1;
+  font-family: 'Amazing Grotesk Demi';
+  font-size: 18px; }
+
+.more-info--yellow {
+  background-color: #fde873;
+  color: #201e34; }
 
 @font-face {
   font-family: 'Open Sans';

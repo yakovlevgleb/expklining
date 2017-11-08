@@ -1,0 +1,21 @@
+.more-info {
+	max-width: 220px;
+	padding-top: 13px;
+	padding-right: 40px;
+	padding-bottom: 13px;
+	padding-left: 40px;
+
+	text-decoration: none;
+
+	color: $white;
+	border-radius: 24px;
+	background-color: $base-salad;
+
+	font-family: 'Amazing Grotesk Demi';
+	font-size: 18px;
+}
+
+.more-info--yellow {
+  background-color: $yellow;
+  color: $base-text
+}
