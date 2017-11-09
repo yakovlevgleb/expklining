@@ -9,7 +9,7 @@
 
 	border-radius: 6px;
 	background-color: $base-text;
-	background-image: url("/assets/img/file.png");
+	background-image: url("../../assets/img/file.png");
 	background-repeat: no-repeat;
 	background-position: 50% 140%;
 
@@ -58,7 +58,7 @@
 		content: '';
 		transform: translate(-50%, -50%);
 
-		background-image: url("/assets/img/icons/download.png");
+		background-image: url("../../assets/img/icons/download.png");
 	}
 
 	&:hover {

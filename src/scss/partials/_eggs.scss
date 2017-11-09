@@ -18,23 +18,6 @@
   text-align: center;
   min-width: calc(100%/4);
 
-  // &::after {
-  //   content: '';
-  //   width: 3px;
-  //   height: 61px;
-  //   position: absolute;
-  //   right: 0;
-  //   top: 0;
-  //   background-image: url("/assets/img/dotted line.png");
-  //   background-repeat: no-repeat;
-  // }
-  //
-  // &:nth-last-child(1) {
-  //   &::after {
-  //     content: none;
-  //   }
-  // }
-
   b {
     font-family: 'Amazing Grotesk Ultra';
     color: $base-salad;
@@ -80,7 +63,7 @@
       position: absolute;
       right: 0;
       top: 0;
-      background-image: url("/assets/img/dotted line.png");
+      background-image: url("../../assets/img/dotted line.png");
       background-repeat: no-repeat;
     }
 

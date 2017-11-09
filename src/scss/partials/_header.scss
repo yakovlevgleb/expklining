@@ -80,19 +80,19 @@
 
 .messengers__item--viber {
   &::before {
-    background-image: url("/assets/img/icons/viber-logo.png");
+    background-image: url("../../assets/img/icons/viber-logo.png");
   }
 }
 
 .messengers__item--wa {
   &::before {
-    background-image: url("/assets/img/icons/whatsapp-logo.png");
+    background-image: url("../../assets/img/icons/whatsapp-logo.png");
   }
 }
 
 .messengers__item--tlg {
   &::before {
-    background-image: url("/assets/img/icons/telegram-logo.png");
+    background-image: url("../../assets/img/icons/telegram-logo.png");
   }
 }
 

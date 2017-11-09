@@ -486,13 +486,13 @@ textarea {
   background-color: #00cad1; }
 
 .messengers__item--viber::before {
-  background-image: url("/assets/img/icons/viber-logo.png"); }
+  background-image: url("../../assets/img/icons/viber-logo.png"); }
 
 .messengers__item--wa::before {
-  background-image: url("/assets/img/icons/whatsapp-logo.png"); }
+  background-image: url("../../assets/img/icons/whatsapp-logo.png"); }
 
 .messengers__item--tlg::before {
-  background-image: url("/assets/img/icons/telegram-logo.png"); }
+  background-image: url("../../assets/img/icons/telegram-logo.png"); }
 
 .call-me {
   max-width: 171px;
@@ -544,7 +544,7 @@ textarea {
   text-align: center;
   border-radius: 6px;
   background-color: #201e34;
-  background-image: url("/assets/img/carousel-bg-1.jpg");
+  background-image: url("../../assets/img/carousel-bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -597,7 +597,7 @@ textarea {
   text-align: center;
   border-radius: 6px;
   background-color: #201e34;
-  background-image: url("/assets/img/file.png");
+  background-image: url("../../assets/img/file.png");
   background-repeat: no-repeat;
   background-position: 50% 140%; }
   .download:hover {
@@ -641,7 +641,7 @@ textarea {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    background-image: url("/assets/img/icons/download.png"); }
+    background-image: url("../../assets/img/icons/download.png"); }
   .download__link:hover {
     background-color: #00cad1; }
 
@@ -707,7 +707,7 @@ textarea {
     position: absolute;
     right: 0;
     top: 0;
-    background-image: url("/assets/img/dotted line.png");
+    background-image: url("../../assets/img/dotted line.png");
     background-repeat: no-repeat; }
   .eggs__item:nth-last-child(1)::after {
     content: none; } }
@@ -863,7 +863,7 @@ textarea {
 
 .city__map {
   height: 410px;
-  background-image: url("/assets/img/map.png");
+  background-image: url("../../assets/img/map.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-color: #ffffff; }
@@ -957,7 +957,7 @@ textarea {
             transform: scale(1.035); }
 
 .block-half--bucket {
-  background-image: url("/assets/img/bg-bucket.jpg"); }
+  background-image: url("../../assets/img/bg-bucket.jpg"); }
   .block-half--bucket h3 {
     margin: 0;
     margin-bottom: 105px;
@@ -967,7 +967,7 @@ textarea {
 
 .block-half--workers {
   padding-left: 17px;
-  background-image: url("/assets/img/workers.png");
+  background-image: url("../../assets/img/workers.png");
   background-position: right; }
   .block-half--workers h3 {
     margin: 0;
@@ -995,7 +995,7 @@ textarea {
 
 .block-full {
   width: 100%;
-  background-image: url("/assets/img/money-rain.jpg");
+  background-image: url("../../assets/img/money-rain.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1034,15 +1034,15 @@ textarea {
   .footer .messengers__item--viber::before {
     width: 19px;
     height: 19px;
-    background-image: url("/assets/img/icons/viber-logo-yellow.png"); }
+    background-image: url("../../assets/img/icons/viber-logo-yellow.png"); }
   .footer .messengers__item--wa::before {
     width: 19px;
     height: 19px;
-    background-image: url("/assets/img/icons/whatsapp-logo-yellow.png"); }
+    background-image: url("../../assets/img/icons/whatsapp-logo-yellow.png"); }
   .footer .messengers__item--tlg::before {
     width: 19px;
     height: 19px;
-    background-image: url("/assets/img/icons/telegram-logo-yellow.png"); }
+    background-image: url("../../assets/img/icons/telegram-logo-yellow.png"); }
 
 .footer__logo {
   margin-bottom: 25px; }
@@ -1143,37 +1143,37 @@ textarea {
 
 @font-face {
   font-family: 'Open Sans';
-  src: url("/fonts/Open Sans/OpenSans-Regular.ttf");
+  src: url("../../fonts/OpenSans/OpenSans-Regular.ttf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Open Sans Semibold';
-  src: url("/fonts/Open Sans/OpenSans-SemiBold.ttf");
+  src: url("../../fonts/OpenSans/OpenSans-SemiBold.ttf");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Amazing Grotesk Ultra';
-  src: url("/fonts/Amazing Grotesk/Amazing Grotesk Ultra.otf");
+  src: url("../../fonts/Amazing Grotesk/Amazing Grotesk Ultra.otf");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Amazing Grotesk Ultra Italic';
-  src: url("/fonts/Amazing Grotesk/Amazing Grotesk Ultra Italic.otf");
+  src: url("../../fonts/Amazing Grotesk/Amazing Grotesk Ultra Italic.otf");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'Amazing Grotesk Demi';
-  src: url("/fonts/Amazing Grotesk/Amazing Grotesk Demi.otf");
+  src: url("../../fonts/Amazing Grotesk/Amazing Grotesk Demi.otf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Amazing Grotesk Demi Italic';
-  src: url("/fonts/Amazing Grotesk/Amazing Grotesk Demi Italic.otf");
+  src: url("../../fonts/Amazing Grotesk/Amazing Grotesk Demi Italic.otf");
   font-weight: normal;
   font-style: italic; }
 
