@@ -1,6 +1,7 @@
 .header {
   margin: 0;
   padding: 0;
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -34,6 +35,7 @@
 .messengers {
   margin-top: 6px;
   margin-bottom: 10px;
+
   a {
     text-decoration: none;
     font-size: 12px;
@@ -50,6 +52,28 @@
       top: 0;
       background-repeat: no-repeat;
       background-position: center;
+    }
+  }
+}
+
+.messengers__item {
+  &:after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 2px;
+    content: '';
+    transition: transform 0.2s linear;
+    transform: translate(-100%,0);
+    background-color: transparent;
+  }
+
+  &:hover {
+    &:after {
+      transform: translate(0,0);
+      background-color: $base-salad;
     }
   }
 }
@@ -74,13 +98,27 @@
 
 .call-me {
   max-width: 171px;
-  border-radius: 18px ;
+  border-radius: 18px;
   background-color: inherit;
   border: 2px solid $base-salad;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
   font-family: 'Amazing Grotesk Demi';
   color: $base-salad;
+  cursor: pointer;
+}
+@media only screen and (min-width:320px) {
+  .header {
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+@media only screen and (min-width:768px) {
+  .header {
+    .container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
 }

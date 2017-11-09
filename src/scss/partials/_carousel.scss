@@ -1,36 +1,72 @@
 .carousel {
-  width: 863px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  text-align: center;
   border-radius: 6px;
-  margin-right: 15px;
+  background-color: $base-text;
+  background-image: url("/assets/img/carousel-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .carousel__slide-1 {
-  padding: 40px;
-  background-image: url("/assets/img/carousel-bg-1.jpg");
-  background-position: center;
-  background-color: $base-text;
   width: 100%;
   height: 100%;
+  padding: 8px;
 
   h1 {
     margin: 0;
-    font-family: 'Amazing Grotesk Ultra';
-    color: $yellow;
     text-transform: uppercase;
-    padding-right: 320px;
+    color: $yellow;
+    font-family: 'Amazing Grotesk Ultra';
+    // padding-right: 320px;
   }
 
   p {
-    font-family: 'Open Sans Semibold';
-    color: $white;
-    padding-right: 310px;
+    // padding-right: 310px;
     text-align: left;
+    color: $white;
+    font-family: 'Open Sans Semibold';
     font-size: 18px;
     line-height: 24px;
   }
 
   b {
     font-family: 'Amazing Grotesk Ultra';
+  }
+}
+
+@media only screen and (min-width:480px) {
+  .carousel {
+    height: 300px;
+  }
+}
+@media only screen and (min-width:768px) {
+  .carousel {
+    text-align: left;
+    width: calc(100% - 306px);
+    height: 300px;
+    margin-right: 15px;
+    h1 {
+      padding-right: 50px;
+    }
+
+    p {
+      padding-right: 50px;
+    }
+  }
+}
+@media only screen and (min-width:1170px) {
+  .carousel {
+    padding: 40px;
+
+    h1 {
+      padding-right: 320px;
+    }
+
+    p {
+      padding-right: 310px;
+    }
   }
 }

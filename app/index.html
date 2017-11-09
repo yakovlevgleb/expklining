@@ -9,7 +9,9 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <link href="assets/css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/components/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/components/slick/slick-theme.css">
 
   <script src="assets/components/modernizr/modernizr.js"></script>
 </head>
@@ -41,21 +43,26 @@
   <main class="main">
     <div class="container">
 
-      <div class="line-container">
+      <section class="intro">
         <section class="carousel">
-          <div class="carousel__slide-1">
-            <h1>Франшиза федеральной сети "Эксперт клининг"</h1>
-            <p>Открой свою клининговую компанию по нашей франшизе и зарабатывай <b class="yellow">от 500 000 рублей</b> через <b class="yellow">6 месяцев</b> работы</p>
-          </div>
-          <div class="carousel__dots">
-          </div>
+            <div class="carousel__slide-1" ata-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide70" aria-describedby="slick-slide-control7">
+              <h1>Франшиза федеральной сети "Эксперт клининг"</h1>
+              <p>Открой свою клининговую компанию по нашей франшизе и зарабатывай <b class="yellow">от 500 000 рублей</b> через <b class="yellow">6 месяцев</b> работы</p>
+            </div>
+            <div class="carousel__slide-1" ata-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide71" aria-describedby="slick-slide-control71">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi. <b class="yellow">от 500 000 рублей</b> через <b class="yellow">6 месяцев</b> работы</p>
+            </div>
+            <div class="carousel__slide-1" ata-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide72" aria-describedby="slick-slide-control72">
+              <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+              <p>Lorem.</p>
+            </div>
         </section>
-
         <section class="download">
           <h2 class="download__header">Скачать<br> бизнес-план<br> "Эксперт Клининг"</h2>
           <a class="download__link" href="" download>Скачать</a>
         </section>
-      </div>
+      </section>
 
       <section class="eggs">
         <ul>
@@ -89,9 +96,9 @@
           <p>Свяжитесь с Генеральным директором компании “Эксперт Клининг” Шамгуновым Эриком Денисламовичем и задайте все интересующие Вас вопросы.</p>
         </div>
         <form class="form-call" action="" method="post">
-          <input type="text" name="" value="" class="form-call__input" placeholder="Ваше имя">
+          <input type="text" name="" value="" class="form-call__input" placeholder="Ваше имя" required>
           <input type="text" name="" value="" class="form-call__input form-call__input--tel" placeholder="+7 (___) ___-__-__" type="tel" title="Формат: +7 (999) 999 99 99" pattern="[0-9_-]{10}" required>
-          <input type="text" name="" value="" class="form-call__input" placeholder="Ваш город">
+          <input type="text" name="" value="" class="form-call__input" placeholder="Удобное время звонка" required>
           <input type="submit" name="" value="Связаться" class="form-call__input form-call__input--btn">
         </form>
       </section>
@@ -103,9 +110,9 @@
         <section class="city__search">
           <p>Чтобы быть первым и вне конкуренции, проверь, есть ли наша франшиза в твоем городе</p>
           <form class="form-call" action="" method="post">
-            <input type="text" name="" value="" class="form-call__input" placeholder="Ваше имя">
-            <input type="text" name="" value="" class="form-call__input form-call__input--tel" placeholder="+7 (___) ___-__-__">
-            <input type="text" name="" value="" class="form-call__input" placeholder="Ваш город">
+            <input type="text" name="" value="" class="form-call__input" placeholder="Ваше имя" required>
+            <input type="text" name="" value="" class="form-call__input form-call__input--tel" placeholder="+7 (___) ___-__-__" type="tel" title="Формат: +7 (999) 999 99 99" pattern="[0-9_-]{10}" required>
+            <input type="text" name="" value="" class="form-call__input" placeholder="Ваш город" required>
             <input type="submit" name="" value="Проверить" class="form-call__input form-call__input--btn">
           </form>
         </section>
@@ -136,7 +143,7 @@
     <div class="container">
       <div class="footer__top">
 
-        <div class="footer__logo"><img src="assets/img/logo-white.png" alt=""></div>
+        <div class="footer__logo"><a href=""><img src="assets/img/logo-white.png" alt=""></a></div>
 
         <div class="footer__info">
           <h4>Напишите нам:</h4>
@@ -162,8 +169,10 @@
     </div>
   </footer>
 
-  <script src="assets/components/jquery/jquery.min.js"></script>
-  <script src="assets/js/scripts.min.js"></script>
+  <script type="text/javascript" src="/assets/components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/components/slick/slick.min.js"></script>
+  <script type="text/javascript" src="/assets/components/mask/jquery.mask.min.js"></script>
+  <script type="text/javascript" src="/assets/js/scripts.min.js"></script>
 
 </body>
 

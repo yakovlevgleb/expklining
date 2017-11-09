@@ -2,7 +2,7 @@
   ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -18,22 +18,22 @@
   text-align: center;
   min-width: calc(100%/4);
 
-  &::after {
-    content: '';
-    width: 3px;
-    height: 61px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url("/assets/img/dotted line.png");
-    background-repeat: no-repeat;
-  }
-
-  &:nth-last-child(1) {
-    &::after {
-      content: none;
-    }
-  }
+  // &::after {
+  //   content: '';
+  //   width: 3px;
+  //   height: 61px;
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  //   background-image: url("/assets/img/dotted line.png");
+  //   background-repeat: no-repeat;
+  // }
+  //
+  // &:nth-last-child(1) {
+  //   &::after {
+  //     content: none;
+  //   }
+  // }
 
   b {
     font-family: 'Amazing Grotesk Ultra';
@@ -46,5 +46,48 @@
     font-family: 'Open Sans Semibold';
     font-size: 16px;
     line-height: 27px;
+  }
+}
+
+@media only screen and (min-width:320px) {
+  .eggs {
+    ul {
+      flex-direction: column;
+    }
+  }
+  .eggs__item {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .eggs {
+    ul {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .eggs__item {
+    &::after {
+      content: '';
+      width: 3px;
+      height: 61px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-image: url("/assets/img/dotted line.png");
+      background-repeat: no-repeat;
+    }
+
+    &:nth-last-child(1) {
+      &::after {
+        content: none;
+      }
+    }
   }
 }

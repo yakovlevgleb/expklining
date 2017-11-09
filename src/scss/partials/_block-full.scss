@@ -2,14 +2,27 @@
   width: 100%;
   background-image: url("/assets/img/money-rain.jpg");
   background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 40px;
-  padding-right: 270px;
+  border-radius: 6px;
 
   h3 {
-    margin: 0;
-    margin-bottom: 35px;
+    margin: 0 0 35px;
     font-family: 'Amazing Grotesk Demi';
-    font-size: 36px;
+    font-size: 26px;
+  }
+
+  &:hover {
+		transition: transform 0.5s linear;
+		transform: scale(1.035);
+	}
+}
+@media only screen and (min-width:480px) {
+  .block-full {
+    h3 {
+      font-size: 36px;
+    }
   }
 }
