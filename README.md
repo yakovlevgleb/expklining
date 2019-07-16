@@ -1,5 +1,5 @@
 # FastShell
-[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)
+[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell) [![Greenkeeper badge](https://badges.greenkeeper.io/yakovlevgleb/expklining.svg)](https://greenkeeper.io/)
 
 inspired by [FireShell](http://getfireshell.com)
 Fiercely quick front-end boilerplate and workflows.
